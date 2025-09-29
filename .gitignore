@@ -1,0 +1,65 @@
+# ------------------------
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.egg-info/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.ipynb_checkpoints/
+
+# Jupyter / VS Code
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Data & Artifacts
+data/
+*.npy
+*.npz
+*.pkl
+*.pt
+*.h5
+*.ckpt
+*.zip
+*.tar
+*.gz
+
+# Hugging Face / Models
+scibert/
+models/
+checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Credentials
+.env
+*.env
+scibert/
+__pycache__/
+*.py[cod]
+*.npy
+*.npz
+*.pkl
+*.pt
+*.h5
+*.ckpt
+.venv/
+data/
+.streamlit/
+
