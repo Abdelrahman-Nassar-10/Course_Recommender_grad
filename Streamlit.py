@@ -12,9 +12,9 @@ st.set_page_config(page_title="Course Recommendation System", page_icon="🎓", 
 st.title("🎓 Course Recommendation System")
 
 # ----------------- Sidebar: Data Path -----------------
-# st.sidebar.header("📦 Data")
-# default_csv_path = "combined_courses.csv"   # <- change if you keep it elsewhere
-# csv_path = st.sidebar.text_input("CSV file path", default_csv_path)
+st.sidebar.header("📦 Data")
+default_csv_path = "combined_courses.csv"   # <- change if you keep it elsewhere
+csv_path = st.sidebar.text_input("CSV file path", default_csv_path)
 
 # ----------------- Load Data -----------------
 @st.cache_resource(show_spinner=True)
