@@ -136,7 +136,7 @@ def mmr_diversify(sorted_idx: np.ndarray, sims: np.ndarray, k: int = 5, lambda_:
             div = 0.0
             for s in selected:
                 # cosine between course vectors; tfidf_matrix is L2-normalized internally
-                div = max(div, float(tfidf_matrix[c].dot(tfidf_matrix[s].T).toarray[0][0]))
+                div = max(div, float(tfidf_matrix[c].dot(tfidf_matrix[s].T).toarray()[0][0]))
             score = lambda_ * rel - (1 - lambda_) * div
             if score > best_score:
                 best_score, best_idx = score, c
